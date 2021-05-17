@@ -1,9 +1,17 @@
-.root__container{
+.root__container {
   width: 100%;
   min-width: 320px;
   max-width: 1184px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  align-items: center;
   padding: 28px 0 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .root__container {
+    padding-top: 16px;
+  }
 }

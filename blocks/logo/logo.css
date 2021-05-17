@@ -1,0 +1,7 @@
+.logo {
+  background-image: url('./../../images/header-logo.svg');
+  background-repeat: no-repeat;
+  background-position: left top;
+  object-fit: cover;
+  background-size: 100% 100%;
+}
