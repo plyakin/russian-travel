@@ -1,24 +1,23 @@
-.root__photo-grid {
+.root__places {
   margin: 92px auto 0;
-  /* width: 100%; */
-  /* padding: 0; */
+  max-width: calc(100% - 100px * 2);
 }
 
 @media screen and (max-width: 1280px) {
-  .root__photo-grid {
+  .root__places {
     max-width: calc(100% - 48px * 2);
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .root__photo-grid {
+  .root__places {
     margin: 88px auto 0;
     max-width: calc(100% - 24px * 2);
   }
 }
 
 @media screen and (max-width: 768px) {
-  .root__photo-grid {
+  .root__places {
     margin: 64px auto 0;
     max-width: calc(100% - 16px * 2);
   }

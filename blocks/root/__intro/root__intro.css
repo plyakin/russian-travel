@@ -1,4 +1,5 @@
 .root__intro {
+  margin: 92px auto 0;
   max-width: calc(100% - 100px * 2);
 }
 
@@ -10,12 +11,14 @@
 
 @media screen and (max-width: 1024px) {
   .root__intro {
+    margin: 88px auto 0;
     max-width: calc(100% - 24px * 2);
   }
 }
 
 @media screen and (max-width: 768px) {
   .root__intro {
+    margin: 64px auto 0;
     max-width: calc(100% - 16px * 2);
   }
 }
