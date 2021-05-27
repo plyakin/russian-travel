@@ -1,0 +1,12 @@
+.menu__list-link {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  transition: opacity 350ms ease;
+}
+
+.menu__list-link:hover {
+  opacity: 0.8;
+}

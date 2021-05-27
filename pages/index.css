@@ -13,6 +13,7 @@
 @import url('./../blocks/root/__photo-grid/root__photo-grid.css');
 @import url('./../blocks/root/__places/root__places.css');
 @import url('./../blocks/root/__cover/root__cover.css');
+@import url('./../blocks/root/__footer/root__footer.css');
 
 @import url('./../blocks/logo/logo.css');
 
@@ -59,3 +60,12 @@
 @import url('./../blocks/cover/__title/cover__title.css');
 @import url('./../blocks/cover/__subtitle/cover__subtitle.css');
 @import url('./../blocks/cover/__link/cover__link.css');
+
+@import url('./../blocks/footer/footer.css');
+@import url('./../blocks/footer/__menu/footer__menu.css');
+@import url('./../blocks/footer/__copyright/footer__copyright.css');
+
+@import url('./../blocks/menu/menu.css');
+@import url('./../blocks/menu/__list/menu__list.css');
+@import url('./../blocks/menu/__list-item/menu__list-item.css');
+@import url('./../blocks/menu/__list-link/menu__list-link.css');
