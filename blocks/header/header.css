@@ -1,0 +1,8 @@
+.header {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
