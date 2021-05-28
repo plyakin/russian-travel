@@ -5,12 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <title>Russian Travel</title>
+    <title>Путешествия по России</title>
   </head>
   <body class="root">
     <div class="root__container box">
       <header class="header root__header box">
-        <a href="#" class="logo header__logo"></a>
+        <a href="#" class="logo header__logo"
+          ><img
+            src="./images/header-logo.svg"
+            alt="Путешествия по России"
+            class="logo__image"
+        /></a>
+
         <ul class="header__lang-items">
           <li class="header__lang-item">
             <a href="" class="header__lang-link header__lang-link_active">ru</a>
@@ -36,7 +42,7 @@
           </figure>
         </section>
         <section class="intro root__intro box">
-          <h1 class="intro__title">Чего мы там не видели?</h1>
+          <h2 class="intro__title">Чего мы там не видели?</h2>
           <p class="intro__text">
             По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
             36% планируют провести отпуск в родной стране. Мол, чего мы тут,
@@ -70,7 +76,11 @@
         <section class="photo-grid root__photo-grid box">
           <ul class="photo-grid__list">
             <li>
-              <img src="./images/1.jpg" alt="поезд" class="photo-grid__image" />
+              <img
+                src="./images/1.jpg"
+                alt=" поезд"
+                class="photo-grid__image"
+              />
             </li>
             <li>
               <img
@@ -80,10 +90,18 @@
               />
             </li>
             <li>
-              <img src="./images/3.jpg" alt="туман" class="photo-grid__image" />
+              <img
+                src="./images/3.jpg"
+                alt=" туман"
+                class="photo-grid__image"
+              />
             </li>
             <li>
-              <img src="./images/4.jpg" alt="сочи" class="photo-grid__image" />
+              <img
+                src="./images/4.jpg"
+                alt=" сочи "
+                class="photo-grid__image"
+              />
             </li>
             <li>
               <img
@@ -153,6 +171,11 @@
             />
             <div class="place__website">
               <span class="place__url-heading">url</span>
+              <!-- <abbr
+                title="унифицированный указатель ресурса"
+                class="place__url-heading"
+                >url</abbr
+              > -->
               <a href="http://park-kosa.ru" class="place__link" target="_blank"
                 >park-kosa.ru</a
               >
