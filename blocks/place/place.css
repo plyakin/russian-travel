@@ -1,5 +1,5 @@
 .place {
-  font-family: Inter;
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   display: grid;
   grid-template-columns: 460px 1fr;
